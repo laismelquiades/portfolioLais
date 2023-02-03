@@ -28,7 +28,7 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <img src="/assets/img/Profile-quad.jpeg" alt="Foto de Perfil" class="photo" id="profile.photo">
 
             <h1 class="title">
                 Olá, <br>eu sou <span id="profile.name">Carregando...</span>
@@ -48,19 +48,44 @@
 
         <section class="acordeon">
             <button class="trigger" type="button">
+                <h2>Sobre mim</h2>
+            </button>
+
+            <div class="content">
+                <p>Farmacêutica em transição de carreira para área de tecnologia. Encontrei na Programação 
+                    uma nova chance de trabalhar com o que gosto e estou completamente apaixonada por essa
+                    profissão. Tenho conhecimentos em HTML, CSS e JavaScript. Quero fazer estágio para poder
+                    me desenvolver tecnicamente e trocar experiências e vivências .</p>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
 
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas:</h3>
+                        <h3>Hard-Skills:</h3>
                         <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
 
                     <section class="personal">
-                        <h3>Pessoal:</h3>
+                        <h3>Soft-Skills:</h3>
                         <ul id="profile.skills.softSkills">
                             <li>Carregando...</li>
                             <li>Carregando...</li>
@@ -83,28 +108,9 @@
             </div>
         </section>
 
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Portfólio</h2>
-            </button>
+        
 
-            <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
-                </ul>
-            </div>
-        </section>
-
-        <section class="acordeon">
-            <button class="trigger" type="button">
-                <h2>Experiência Profissional</h2>
-            </button>
-
-            <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
-                </ul>
-            </div>
-        </section>
-
+        
     </main>
 
     <script src="assets/js/acordeon.js"></script>

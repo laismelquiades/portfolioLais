@@ -36,14 +36,20 @@
   ],
   "portfolio": [
     {
-      "name": "Pokedex - Projeto feito em curso de formação em JavaScript Developer - DIO ",
+      "name": "Pokedex",
       "url": "https://github.com/laismelquiades/js-developer-pokedex",
       "github": true
     },
     {
-      "name": "Surf Energy - Projeto feito  afim de desenvolver habilidades no CSS (Position) - Kenzie",
+      "name": "Surf Energy",
       "url": "https://github.com/laismelquiades/surf-energy-base-laismelquiades",
       "github": true
+    },
+    {
+      "name": "Catflix",
+      "url": "https://github.com/laismelquiades/catflix-lais",
+      "github": true
     }
+
   ]
 }

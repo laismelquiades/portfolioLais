@@ -49,6 +49,27 @@
       "name": "Catflix",
       "url": "https://github.com/laismelquiades/catflix-lais",
       "github": true
+    },
+    {
+      "name": "Virtual Market",
+      "url": "https://github.com/laismelquiades/virtual-market-Lais",
+      "url": "https://github.com/laismelquiades/VirtualMarketCar-lais",
+      "github": true
+    },
+    {
+      "name": "E-commerce Paula Biquínis",
+      "url": "https://github.com/laismelquiades/PaulaBiquinis-Lais",
+      "github": true
+    },
+    {
+      "name": "TechShop",
+      "url": "https://github.com/laismelquiades/TechShop-Lais",
+      "github": true
+    },
+    {
+      "name": "Geek Store",
+      "url": "https://github.com/laismelquiades/GeekStore-Lais",
+      "github": true
     }
 
   ]
